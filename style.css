@@ -5,7 +5,7 @@ body {
   background-color: lightblue;
 }
 div {
-  margin: auto;
+  margin: 0 auto;
   padding: 0;
 }
 .l1 {
@@ -19,14 +19,17 @@ div {
   grid-row: 2;
   font: bold 80px "MicrosoftYahe";
 }
+
 .l3 {
   grid-column: 1;
   grid-row: 3;
   font: bold 80px "MicrosoftYahe";
 }
+
 .l4 {
   grid-column: 1;
   grid-row: 4;
+  padding: 0;
 }
 
 button {
@@ -35,6 +38,7 @@ button {
   background-color: lightpink;
 }
 img {
+  margin: 0;
   width: auto;
   height: auto;
   max-width: 100%;
@@ -49,15 +53,18 @@ li {
   background: white;
   width: 150px;
   height: 200px;
-  border: black solid;
-  margin-bottom: 5px;
-  margin-left: 5px;
+  border: black solid 2px;
   font-size: 70px;
   text-align: center;
-  line-height: 200px;
 }
 
-ul {
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+br {
   margin: 0;
   padding: 0;
 }
