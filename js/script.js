@@ -17,7 +17,7 @@ lis.forEach(lisHandler);
 
 function lisHandler(li) {
   li.addEventListener("click", function (event) {
-    if (event.target.src) {
+    if (event.target.src || event.target.getElementsByTagName("img")[0]) {
       return;
     } else {
       event.target.innerHTML = img[i];
