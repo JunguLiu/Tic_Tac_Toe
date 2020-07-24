@@ -2,7 +2,6 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 8fr;
-  background-color: lightblue;
 }
 div {
   margin: 0 auto;
@@ -50,10 +49,9 @@ p {
 
 li {
   display: inline-block;
-  background: white;
+
   width: 150px;
   height: 200px;
-  border: black solid 2px;
   font-size: 70px;
   text-align: center;
 }
@@ -64,7 +62,16 @@ li {
   padding: 0;
 }
 
-br {
+.line {
+  margin: 0 auto;
+  padding: 0;
+  border-top: black 10px solid;
+}
+.vline {
+  display: inline-block;
+  height: 210px;
+  border-left: black 10px solid;
   margin: 0;
+  margin-top: 4px;
   padding: 0;
 }
